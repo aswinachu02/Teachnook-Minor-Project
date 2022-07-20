@@ -21,6 +21,8 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,6 +95,7 @@ section {
 
 section .heading {
   margin: 15px;
+  padding-top: 100px;
   margin-bottom: 20px;
   font-size: 60px;
 }
